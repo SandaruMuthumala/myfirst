@@ -17,12 +17,12 @@
   },
   "env": {
     "TOKEN": {
-      "description": "Telegram bot token",
+      "description": "5949185294:AAEAgjv-VAIEYmWfEb8IoQX8rAKdos1FEHc",
       "required": true
     }
   },
   "scripts": {
-    "start": "python your_script_name.py"
+    "start": "bot.py"
   },
-  "repository": "your-github-repository-url"
+  "repository": "https://github.com/SandaruMuthumala/myfirst"
 }
