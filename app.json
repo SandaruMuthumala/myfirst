@@ -1,0 +1,28 @@
+{
+  "name": "your-telegram-bot",
+  "description": "Chemical Info Bot using PubChem and Telegram",
+  "keywords": ["telegram-bot", "pubchem", "heroku"],
+  "image": "heroku/python",
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-20",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "env": {
+    "TOKEN": {
+      "description": "Telegram bot token",
+      "required": true
+    }
+  },
+  "scripts": {
+    "start": "python your_script_name.py"
+  },
+  "repository": "your-github-repository-url"
+}
