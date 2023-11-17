@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, CallbackContext, filters
 
 # Replace 'YOUR_BOT_TOKEN' with the actual token for your Telegram bot
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '5949185294:AAEAgjv-VAIEYmWfEb8IoQX8rAKdos1FEHc'
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Welcome to the Chemical Info Bot! Send me a chemical formula to get information.')
