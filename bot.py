@@ -2,7 +2,7 @@ import os
 import math
 import random
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
 from telegram.parsemode import ParseMode
 from dotenv import load_dotenv
 from email.mime.multipart import MIMEMultipart
