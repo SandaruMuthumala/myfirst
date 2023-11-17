@@ -30,7 +30,7 @@ def chemical_info(update: Update, context: CallbackContext) -> None:
         update.message.reply_text(f"No information found for {chemical_formula}. Please check the formula.")
 
 def main() -> None:
-    updater = Updater(TOKEN)
+    updater = Updater(token=TOKEN, use_context=True)
 
     dp = updater.dispatcher
 
@@ -43,3 +43,4 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+
